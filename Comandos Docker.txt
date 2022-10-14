@@ -1,0 +1,1 @@
+docker run -p 5432:5432 --name produtos-apirest -e POSTGRES_PASSWORD=1234567 -e POSTGRES_DB=produtos-apirest postgres:15rc1-alpine3.16
